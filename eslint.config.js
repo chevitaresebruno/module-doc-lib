@@ -19,7 +19,7 @@ export default [
   // Regras específicas para TS/TSX
   {
     files: [
-      "src/**/*.{ts,tsx}",
+      "src/**/*.{ts,tsx,d.ts}",
       // "tests/**/*.{ts,tsx}"
     ],
     plugins: { import: importPlugin },
